@@ -1,0 +1,128 @@
+.transfer-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.transfer-logo {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #e65100;
+}
+
+.transfer-divider {
+  margin-bottom: 24px;
+}
+
+.transfer-user {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center; // căn giữa theo chiều ngang
+  background: #f0f0f0;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  padding: 16px;
+}
+
+.transfer-user-balance-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.transfer-avatar {
+  width: 64px;
+  height: 64px;
+  background: #f5f5f5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #ff9800;
+  margin-right: 16px;
+}
+
+.transfer-username {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.transfer-balance-label {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.transfer-balance {
+  color: #E65100;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.transfer-group {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.transfer-group label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: #444;
+}
+
+.transfer-group input {
+  font-size: 1rem;
+  padding: 8px 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.transfer-group input:focus {
+  border: 1.5px solid #e3342f;
+}
+
+.transfer-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.transfer-cancel,
+.transfer-submit {
+  width: 50%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  background: #fde8e8;
+  color: #e3342f;
+  transition: background 0.2s;
+}
+
+.transfer-cancel:hover,
+.transfer-submit:hover {
+  background: #fbbfbb;
+}
+
+.align-items-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
