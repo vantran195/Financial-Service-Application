@@ -25,8 +25,18 @@ Role Admin:
 # Cài đặt & chạy dự án
 Hướng dẫn để chạy dự án trên máy cá nhân:
 1. Clone repository về máy và khởi chạy bằng VScode, MySQL và Spring Tool Suite
-- Trong file bao gồm: file frontend 'Bank' và file backend 'project88'
-
++ Trong file bao gồm:
+- File frontend 'Bank' (chạy trong vscode)
+- File backend 'project88' (chạy trong STS)
+- File database 'project88_DB' (chạy trong MySQL)
 
 Khởi chạy ứng dụng
+npm install
 npm start
+
+Đăng ký tài khoản user:
+- ấn đăng ký tài khoản và kiểm tra hòm thư email cá nhân để kích hoạt
+  
+Login với admin:
+- username: admin
+- password: 123456
